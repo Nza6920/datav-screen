@@ -2,10 +2,14 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import datav from 'niu-datav-libs-dev'
+import testA from 'niu-datav-libs-dev/src/components/Test-a/index'
+import testB from 'niu-datav-libs-dev/src/components/Test-b/index'
+import testC from 'niu-datav-libs-dev/src/components/Test-c/index'
 
 createApp(App)
   .use(router)
   .use(store)
-  .use(datav)
+  .use(testA)
+  .use(testB)
+  .use(testC)
   .mount('#app')
