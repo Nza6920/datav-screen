@@ -5,6 +5,9 @@
       <router-link to="/about">About</router-link>
       <router-link to="/test">Test</router-link>
     </div>
+    <div>
+      <test-component></test-component>
+    </div>
     <router-view/>
   </div>
 </template>
