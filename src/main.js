@@ -4,14 +4,10 @@ import router from './router'
 import store from './store'
 
 // 加载本地依赖
-import testA from 'niu-datav-libs-dev/src/components/Test-a/index'
-import testB from 'niu-datav-libs-dev/src/components/Test-b/index'
-import testC from 'niu-datav-libs-dev/src/components/Test-c/index'
+import dataVComponent from 'niu-datav-libs-dev'
 
 createApp(App)
   .use(router)
   .use(store)
-  .use(testA)
-  .use(testB)
-  .use(testC)
+  .use(dataVComponent)
   .mount('#app')
