@@ -1,24 +1,29 @@
 # datav-screen
 
-## Project setup
+
+
+## 1. 克隆 [datav libs](https://github.com/Nza6920/datav-libs) 
+```
+阅读 README 按步骤安装
+```
+
+## 2. 手动引入本地库依赖
+```
+npm link niu-datav-libs-dev
+```
+
+## 3. 安装其他依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 4. 运行
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 5. 打包
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
