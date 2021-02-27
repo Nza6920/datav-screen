@@ -1,14 +1,27 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
       <router-link to="/test">Test</router-link>
     </div>
     <div>
       <test-component-a></test-component-a>
-      <test-component-b></test-component-b>
-      <test-component-c></test-component-c>
+      <!-- 使用svg -->
+      <svg width="50" height="50" style="color: red">
+        <use href="#more"></use>
+      </svg>
+      <svg width="50" height="50" style="color: green">
+        <use href="#filledArrowRight"></use>
+      </svg>
+      <svg width="50" height="50" style="color: green">
+        <use href="#arrowRight"></use>
+      </svg>
+      <Icon name="arrowRight" class="common-icon"></Icon>
+      <Icon name="mobile" class="common-icon"></Icon>
+      <Icon prefix="icon" name="bofang" class="common-icon"></Icon>
+      <!--      <test-component-b></test-component-b>-->
+      <!--      <test-component-c></test-component-c>-->
     </div>
     <router-view/>
   </div>
@@ -34,5 +47,15 @@
       color: #42b983;
     }
   }
+}
+
+.icon-wrapper {
+  color: green;
+}
+
+.common-icon {
+  width: 50px;
+  height: 50px;
+  color: purple;
 }
 </style>
