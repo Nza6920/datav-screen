@@ -23,15 +23,37 @@
       <!--      <test-component-b></test-component-b>-->
       <!--      <test-component-c></test-component-c>-->
       <!--      <svg-animation />-->
-      <my-loading width="300"
-                  height="300"
-                  outsideColor="red"
-                  insideColor="yellow"
-                  duration="2">
-        <div>
-          数据大屏加载中...
-        </div>
-      </my-loading>
+      <!--      <my-loading width="300"-->
+      <!--                  height="300"-->
+      <!--                  outsideColor="red"-->
+      <!--                  insideColor="yellow"-->
+      <!--                  duration="2">-->
+      <!--        <div>-->
+      <!--          数据大屏加载中...-->
+      <!--        </div>-->
+      <!--      </my-loading>-->
+      <my-fly-box style="width: 50%;background: #333;color: #fff">
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+      </my-fly-box>
+      <my-fly-box style="width: 50%;background: #333;color: #fff">
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+        <div>11</div>
+      </my-fly-box>
     </div>
     <!--    <router-view/>-->
   </div>
