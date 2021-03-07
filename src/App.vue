@@ -7,24 +7,33 @@
     </div>
     <div>
       <test-component-a></test-component-a>
-<!--      &lt;!&ndash; 使用svg &ndash;&gt;-->
-<!--      <svg width="50" height="50" style="color: red">-->
-<!--        <use href="#more"></use>-->
-<!--      </svg>-->
-<!--      <svg width="50" height="50" style="color: green">-->
-<!--        <use href="#filledArrowRight"></use>-->
-<!--      </svg>-->
-<!--      <svg width="50" height="50" style="color: green">-->
-<!--        <use href="#arrowRight"></use>-->
-<!--      </svg>-->
-<!--      <Icon name="arrowRight" class="common-icon"></Icon>-->
-<!--      <Icon name="mobile" class="common-icon"></Icon>-->
-<!--      <Icon prefix="icon" name="bofang" class="common-icon"></Icon>-->
+      <!--      &lt;!&ndash; 使用svg &ndash;&gt;-->
+      <!--      <svg width="50" height="50" style="color: red">-->
+      <!--        <use href="#more"></use>-->
+      <!--      </svg>-->
+      <!--      <svg width="50" height="50" style="color: green">-->
+      <!--        <use href="#filledArrowRight"></use>-->
+      <!--      </svg>-->
+      <!--      <svg width="50" height="50" style="color: green">-->
+      <!--        <use href="#arrowRight"></use>-->
+      <!--      </svg>-->
+      <!--      <Icon name="arrowRight" class="common-icon"></Icon>-->
+      <!--      <Icon name="mobile" class="common-icon"></Icon>-->
+      <!--      <Icon prefix="icon" name="bofang" class="common-icon"></Icon>-->
       <!--      <test-component-b></test-component-b>-->
       <!--      <test-component-c></test-component-c>-->
-      <svg-animation />
+      <!--      <svg-animation />-->
+      <my-loading width="300"
+                  height="300"
+                  outsideColor="red"
+                  insideColor="yellow"
+                  duration="2">
+        <div>
+          数据大屏加载中...
+        </div>
+      </my-loading>
     </div>
-<!--    <router-view/>-->
+    <!--    <router-view/>-->
   </div>
 </template>
 
