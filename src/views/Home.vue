@@ -1,18 +1,30 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <my-container :options="{ width: 3140, height: 2160}">
+      <div class="test">lol</div>
+    </my-container>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+  },
+  mounted() {
+  },
+  data() {
+    return {
+
+    }
   }
 }
 </script>
+
+<style lang="scss">
+  .test {
+    font-size: 110px;
+    color: red;
+    transform: scale(1, 1);
+  }
+</style>
