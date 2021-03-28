@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "niu-datav-libs-dev": "1.0.0",
     "vue": "^3.0.0-beta.1",
     "vue-router": "^4.0.0-alpha.6",
-    "vuex": "^4.0.0-alpha.1",
-    "niu-datav-libs-dev": "1.0.0"
+    "vuex": "^4.0.0-alpha.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
